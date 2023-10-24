@@ -1,11 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kyh Clone</title>
+  </head>
+  <body>
+    <header>
+      <h1>Kyh</h1>
+      <nav>
+        <div class="nav-icons">
+          <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
+        </div>
+        <div class="tel">
+          <i class="fa-solid fa-phone" style="color: #ffffff" id="tel"></i>
+        </div>
+        <div class="calender">
+          <i class="fa-solid fa-calendar-days" style="color: #ffffff"></i>
+        </div>
+        <div class="bell">
+          <i class="fa-solid fa-bell" style="color: #ffffff"></i>
+        </div>
+        <div class="user">
+          <i class="fa-solid fa-user" style="color: #ffffff"></i>
+        </div>
+        <li><a href="#">Inkorg</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#">Studieplan</a></li>
+        <li><a href="#">Händelser</a></li>
+        <li><a href="#">Mohamed Hassan</a></li>
+      </nav>
+    </header>
+    <div class="wel">
+      <p>
+        Välkommen Mohamed Hassan Omar <span class="elev">(Elev-ID 507000)</span>
+      </p>
+    </div>
+    <div class="space">
+      <p>
+        <i class="fa-solid fa-circle-question" style="color: #31708f"></i>
+        Var vänlig besvara följande kursutvärdering
+        <li><a href="#"> Kursutvärdering HTML och CSS</a></li>
+      </p>
+    </div>
+    <div class="container">
+      <h4><a href="#">HTML och CSS</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 11 Sep och 20 Okt</p>
+      <p class="Din">Din lärare: <strong>Jonatan Vahlberg</strong></p>
+      <div class="test">
+        <div class="test1"></div>
+        <div class="test2"></div>
+        <div class="test3"></div>
+        <div class="test4">
+          <i class="fa-solid fa-hourglass-half" style="color: #888888"></i>
+        </div>
+        <div class="test5"></div>
+        <div class="test6"></div>
+      </div>
+      <div class="all">
+        <div class="icons">
+          <i class="fa-regular fa-rectangle-list"></i>
+          <p class="icon"><a href="#">0 av 1</a></p>
+          <p class="upp">uppgifter rättade</p>
+        </div>
+        <div class="clock">
+          <i class="fa-regular fa-clock"></i>
+          <p class="cloc"><a href="#">0</a></p>
+          <p class="clock-text">dagar kvar av kursen</p>
+        </div>
+        <div class="check">
+          <i class="fa-solid fa-circle-check" style="color: #5cb85b"></i>
+          <p class="chec"><a href="#">100%</a></p>
+          <p class="check-text">aktivitet</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">Javascript 1</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 23 Okt och 1 Dec</p>
+      <p class="Din">Din lärare: <strong>Joakim Lindh</strong></p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 1 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">Arbetsmetodik 2</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 4 Dec och 22 Dec</p>
+      <p class="Din">Din lärare: <strong>Hassan Main</strong></p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 40 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">Javascript 2</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 23 Okt och 1 Dec</p>
+      <p class="Din">Du har inte blivit tilldelad en lärare på denna kurs än</p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 60 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">UX och grafiska verktyg</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 25 Dec och 2 Feb</p>
+      <p class="Din">Du har inte blivit tilldelad en lärare på denna kurs än</p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 100 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">Back end utveckling</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 4 Feb och 23 Feb</p>
+      <p class="Din">Du har inte blivit tilldelad en lärare på denna kurs än</p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 127 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">Javascript 3</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 15 Apr och 1 Maj</p>
+      <p class="Din">Du har inte blivit tilldelad en lärare på denna kurs än</p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 176 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">Typescript</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 19 Aug och 13 Sep</p>
+      <p class="Din">Du har inte blivit tilldelad en lärare på denna kurs än</p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 300 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">Front End projekt</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 16 Sep och 22 Nov</p>
+      <p class="Din">Du har inte blivit tilldelad en lärare på denna kurs än</p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 330 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">LIA</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 25 Nov och 11 Apr</p>
+      <p class="Din">Du har inte blivit tilldelad en lärare på denna kurs än</p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 400 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h4><a href="#">Examensarbete</a></h4>
+      <span class="hel">Heltid</span>
+      <p class="mellan">Kursen pågår mellan 14 Apr och 23 Maj</p>
+      <p class="Din">Du har inte blivit tilldelad en lärare på denna kurs än</p>
+      <div class="fill">
+        <p>
+          <i class="fa-solid fa-circle-exclamation" style="color: #317095"></i>
+          Denna kurs börjar om 540 dag. <br />
+          Klicka på kursens namn ovan för att kolla igenom kursens innehåll.
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
