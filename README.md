@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # KYH Klon
 
 Det här projektet är en enkel front-end gränssnitt som liknar KYH Yrkeshögskolas webbplats. Varje elev har en egen sida för att följa sina studier, även om detta gränssnitt endast är en visuell representation utan någon fungerande bakänd.
@@ -26,7 +25,3 @@ Det här projektet är utformat för utbildningssyften för att visa kunskaper i
 ## Hur man Kör
 
 Öppna helt enkelt filen `index.html` i en webbläsare för att visa KYH Klon gränssnittet.
-=======
-# Kyh-Clone
-Kyh-Website, Greated with only html and css
->>>>>>> origin/main
